@@ -1,0 +1,35 @@
+body {
+	background-image: url("https://images.indianexpress.com/2016/07/cows_759_thinkstockphotos-475991051.jpg");
+	background-color: rgba(220, 254, 250);
+	text-align: center;
+	
+}
+h1 {
+	color: black;
+	font-family: Arial;
+}
+.welcome-title{
+	height: 125px;
+	width: 500px;
+	padding: 10px;
+	margin: 25px 100px 100px 700px;
+	border: 5px solid black;
+	background-color: white;
+}
+
+.entree-menu {
+	height: 500px;
+	width: 500px;
+	padding: 10px;
+	margin: 100px;
+	border: 5px solid black;
+	background-color: white;
+}
+.sides-menu {
+	height: 550px;
+	width: 500px;
+	padding: 10px;
+	margin: 100px 100px 100px 700px;
+	border: 5px solid black;
+	background-color: white;
+}

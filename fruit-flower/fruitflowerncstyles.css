@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(0, 200, 75);
+    text-align: center;
+}
+.welcome-panel {
+    color: black;
+    text-shadow:black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px groove white;
+    border-width: 10px;
+    margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 600px;
+  margin-left: 600px;
+  background-image: url("https://blog.bcbsnc.com/wp-content/uploads/2016/03/redbud-blossoms.jpg")
+    
+}
+.nav-links {
+    color:white;
+    margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 600px;
+  margin-left: 600px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+background-image: url("https://blog.bcbsnc.com/wp-content/uploads/2016/03/redbud-blossoms.jpg")
+
+}
+.home-link, .flowers-link, .fruit-link, .references-link {
+display: inline;
+width: 100px;
+height: 100px;
+padding: 5px;
+border: 1px solid darkolivegreen;
+outline-style: groove;
+}
+.introduction-panel {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}

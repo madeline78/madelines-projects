@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>Flowers Page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+    .content {
+        max-width: 1500px;
+        margin: auto;
+    }
+</style>
+
+<body>
+   <!--  Navigation -->
+    <nav class="w3-bar w3-black">
+        <h3>North Carolina Flower and Fruit</h3>
+        <a href="#home" class="w3-button w3-bar-item">Home</a>
+        <a href="#flowers" class="w3-button w3-bar-item">Flowers</a>
+        <a href="#fruit" class="w3-button w3-bar-item">Fruit</a>
+        <a href="#about" class="w3-button w3-bar-item">About</a>
+      </nav>
+        <!-- Slide Show -->
+        
+    <section>
+        <img class="mySlides" src="https://d3m7xw68ay40x8.cloudfront.net/assets/2015/05/19154318/Thermopsis_villosa.jpg" style="width:50%">
+        <img class="mySlides" src="https://d3m7xw68ay40x8.cloudfront.net/assets/2015/05/19154318/wood-anemone.jpg" style="width:50%">
+        <img class="mySlides" src="https://d3m7xw68ay40x8.cloudfront.net/assets/2015/05/19154318/crested-iris.jpg" style="width:50%">
+      </section>
+      <script>
+        // automatic slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+  
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+        </script>
+</body>
+
+</html>

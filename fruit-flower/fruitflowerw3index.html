@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <title>Flower Fruit NC Index</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+    .content {
+        max-width: 1500px;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <div class="content">
+    <!-- Navigation -->
+<nav class="w3-bar w3-black">
+    <h3>North Carolina Flower and Fruit</h3>
+    <a href="#home" class="w3-button w3-bar-item">Home</a>
+    <a href="#flowers" class="w3-button w3-bar-item">Flowers</a>
+    <a href="#fruit" class="w3-button w3-bar-item">Fruit</a>
+    <a href="#about" class="w3-button w3-bar-item">About</a>
+  </nav>
+    <!-- Slide Show -->
+    
+<section>
+    <img class="mySlides" src="https://d3m7xw68ay40x8.cloudfront.net/assets/2015/05/19154318/Thermopsis_villosa.jpg" style="width:50%">
+    <img class="mySlides" src="https://d3m7xw68ay40x8.cloudfront.net/assets/2015/05/19154318/wood-anemone.jpg" style="width:50%">
+    <img class="mySlides" src="https://d3m7xw68ay40x8.cloudfront.net/assets/2015/05/19154318/crested-iris.jpg" style="width:50%">
+  </section>
+
+  <!-- Welcome Section -->
+  <div class="w3-container w3-center w3-content" style="max-width:600px">
+    <h1 class="w3-wide">North Carolina Flower and Fruit</h1>
+    </div>
+  <script>
+      // automatic slideshow - change image every 3 seconds
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+      }
+      </script>
+    <div class="introduction-panel w3-container w3-center w3-content">
+        <p class="w3-justify">Foliage found in North Carolina comes in many different colours, shapes, and sizes. Here are three of
+            the many plants found in North Carolina that can be grown in your own backyard.</p>
+    </div>
+    <section class="w3-row-padding w3-center w3-light-grey">
+        <article class="w3-third">
+          <p>Wood-Anemone, <i>Anemone quinquefolia</i></p>
+          <img src="https://i.ebayimg.com/00/s/MTUyMVgxNjAw/z/OGgAAOSw6SlZdRDN/$_57.JPG?set_id=880000500F" alt="Wood-Anemone" style="width:100%">
+          <p class="w3-justify">The wood-anemone flower is a small white flower that grows well in well-drained soil in forests. It is also known as the Thimbleweed. It's size generally only reaches one foot in height.</p>
+        </article>
+        <article class="w3-third">
+          <p>Carolina Lupine, <i>Thermopsis villosa</i></p>
+          <img src="https://static.onecms.io/wp-content/uploads/sites/37/2015/06/15224332/SIP892159.jpg" alt="Carolina Lupine" style="width:100%">
+          <p class="w3-justify"> The Carolina Lupine is another smaller flower but grows in groups off a main stem. It's pedals are a soft yellow colour, similar to daffodils. It grows well in full sun and well-drained soil to grow up to four feet tall.</p>
+        </article>
+        <article class="w3-third">
+          <p>Dwarf Crested Iris, <i>Iris cristata</i></p>
+          <img src="https://cdn11.bigcommerce.com/s-f7vi5gj1c3/images/stencil/1280x1280/products/394/742/iris-cristata-shade-perennials-19ab__36807.1579543717.jpg?c=2" alt="Dwarf Crested Iris" style="width:100%">
+          <p class="w3-justify">The Dwarf Crested Iris is a frilly light violet coloured flower with one petal having a white fan, then a yellow fan inside. It grows in full sun in well-drained soil, but can bloom in partial shade. It can grow up to three to</p>
+        </article>
+      </section>
+    <div class="footer">
+
+    </div>
+</div>
+</body>
+</title>
+
+</html>
